@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: deploy
-        uses: villi02/github-pages-deploy-action@4.1.4
+        uses: villi02.github.io
         with:
           branch: gh-pages
           folder: dist
